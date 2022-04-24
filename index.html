@@ -6,9 +6,134 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/754a3d7818.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
+    <header class="wrapper"">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#headerInfo">Home</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="headerInfo" id="headerInfo">
+            <h1>Harrison Hui</h1>
+            <p>Toronto based web developer</p>
+            <button>get in touch</button>
+        </div>
+    </header>
+    <!-- Header END -->
+
+    <!-- Main content section -->
+    <main class="wrapper">
+        <section class="about" id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum amet quod nisi ad quae maxime cum blanditiis nemo mollitia dolorem?</p>
+        </section>
+
+        <section class="skill" id="skill">
+            <h2>My Developer Toolkit</h2>
+            <div class="skillIconContainer">
+                <div class="skillIcon">
+                    <i class="devicon-html5-plain"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="skillIcon">
+                    <i class="devicon-css3-plain"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="skillIcon">
+                    <i class="devicon-sass-original"></i>
+                    <p>SASS</p>
+                </div>
+                <div class="skillIcon">
+                    <i class="devicon-javascript-plain"></i>
+                    <p>JAVASCRIPT</p>
+                </div>
+                <div class="skillIcon">
+                    <i class="devicon-react-original"></i>
+                    <p>REACT</p>
+                </div>
+                <div class="skillIcon">
+                    <i class="devicon-github-original"></i>
+                    <p>GITHUB/GIT</p>
+                </div>
+                <div class="skillIcon">
+                    <i class="devicon-firebase-plain"></i>
+                    <p>FIREBASE</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="projectLeft">
+                <img src="./assets/javascript_app.png" alt="dog encyclopawdia javascript application">
+                <div class="projectInfo">
+                    <h3>Dog Enyclo-paw-dia</h3>
+                    <h4>HTML,CSS,SCSS,JS</h4>
+                    <p>An application that displays information and an image about a dog breed selected by the user via a drop down list.</p>
+                    <div class=""projectButtonContainer>
+                        <a href="https://dog-encyclo-paw-dia.netlify.app/" class="projectButton">view live</a>
+                        <a href="#" class="projectButton">view code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projectLeft">
+                <img src="./assets/beachstay_conversion.png" alt="beachstays psd conversion project">
+                <div class="projectInfo">
+                    <h3>BeachStays</h3>
+                    <h4>HTML,CSS,SCSS</h4>
+                    <p>A responsive and accessible multi-page PSD conversion design recreated from scratch to practice core HTML and CSS skills</p>
+                    <div class=""projectButtonContainer>
+                        <a href="#" class="projectButton">view live</a>
+                        <a href="#" class="projectButton">view code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projectLeft">
+                <img src="./assets/assignment_one.png" alt="paint gallery psd conversion created on CodePen">
+                <div class="projectInfo">
+                    <h3>Paint Gallery</h3>
+                    <h4>HTML, CSS, CodePen</h4>
+                    <p>A responsive and accessible single-page PSD conversion created on CodePen</p>
+                    <div class=""projectButtonContainer>
+                        <a href="#" class="projectButton">view live</a>
+                        <a href="#" class="projectButton">view code</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2>Contact</h2>
+            <div class="contactIcon">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, adipisci.</p>
+            <button>Let's Connect!</button>
+        </section>
+        
+    </main>
     
+    <footer class="wrapper">
+        <p>Built in 2022 by Harrison Hui.</p>
+    </footer>
 </body>
 </html>
