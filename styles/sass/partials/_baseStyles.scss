@@ -30,7 +30,7 @@ button {
 img {
     max-width: 100%;
     height: auto;
-    max-height: 60vh;
+    max-height: 40vh;
     display: block;
     margin: 0 0 0 auto;
 }
@@ -71,11 +71,6 @@ ul {
     }
 }
 
-// Main styles
-.skillIcon i {
-    font-size: 50px;
-}
-
 // footer start
 footer {
     width: 100%;
@@ -84,6 +79,5 @@ footer {
     color: white;
     p {
         margin: 0;
-        margin-top: 10px;
     }
 }
