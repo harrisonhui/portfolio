@@ -4,7 +4,7 @@ html {
 }
 
 .wrapper{
-    max-width: 1260px;
+    // max-width: 1260px;
     width: 90%;
     margin: 0 auto;
 }
@@ -48,7 +48,6 @@ a {
 ul {
     display: flex;
     justify-content: space-around;
-    // align-items: center;
     border: 1px solid black;
     margin-bottom: 40px;
 }
