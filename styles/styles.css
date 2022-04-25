@@ -266,20 +266,26 @@ img {
 header {
   background-color: orange;
 }
+header h1 {
+  font-size: 2.6rem;
+}
 
 a {
   text-decoration: none;
   color: black;
 }
 
-ul {
+.nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  border: 1px solid black;
   margin-bottom: 40px;
+}
+.nav a {
+  font-weight: bold;
+  color: #FFF1BF;
 }
 
 .headerInfo {
@@ -290,7 +296,6 @@ ul {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  border: 1px solid black;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -332,6 +337,7 @@ footer p {
 .about h2 {
   margin-bottom: 0;
   margin-top: 30px;
+  color: #B38B00;
 }
 .about p {
   margin-top: 0;
@@ -340,7 +346,7 @@ footer p {
 }
 
 .skill {
-  background-color: orange;
+  background-color: #B38B00;
 }
 
 .skillContainer {
@@ -360,7 +366,6 @@ footer p {
 }
 
 .skillIconContainer {
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -396,9 +401,11 @@ footer p {
       -ms-flex-align: center;
           align-items: center;
 }
+.projects h2 {
+  color: #B38B00;
+}
 
 .projectLeft {
-  border: 1px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -431,12 +438,11 @@ footer p {
 }
 
 .projectButton {
-  border: 1px solid black;
   background-color: orange;
 }
 
 .contact {
-  background-color: orange;
+  background-color: #FFE380;
 }
 
 .contactContainer {
@@ -464,4 +470,36 @@ footer p {
 }
 .contactContainer button {
   margin-bottom: 30px;
+}
+
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .projectLeft {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .projectInfo h3 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 400px) {
+  .nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.6rem;
+  }
 }
