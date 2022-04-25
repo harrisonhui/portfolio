@@ -7,80 +7,90 @@
     <title>Portfolio</title>
     <script src="https://kit.fontawesome.com/754a3d7818.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <header class="wrapper"">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#headerInfo">Home</a>
-                </li>
-                <li>
-                    <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
+    <header>
+        <div class="wrapper">
+            <nav>
+                <ul class="nav">
+                    <li>
+                        <a href="#headerInfo">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
 
-        <div class="headerInfo" id="headerInfo">
-            <h1>Harrison Hui</h1>
-            <p>Toronto based web developer</p>
-            <button>get in touch</button>
+            <div class="headerInfo" id="headerInfo">
+                <h1>Harrison Hui</h1>
+                <h5>Toronto based web developer</h5>
+                <button>get in touch</button>
+            </div>
         </div>
     </header>
     <!-- Header END -->
 
     <!-- Main content section -->
-    <main class="wrapper">
-        <section class="about" id="about">
+    <main>
+        <section class="about wrapper" id="about">
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum amet quod nisi ad quae maxime cum blanditiis nemo mollitia dolorem?</p>
-        </section>
+            <p>Hi there! My name is Harrison and I'm a front-end web developer located in Toronto, and am always excited to use my skills to build responsive, accessible web applications! During my free time, I love to play board games and video games, try new food around the city, and watch the NBA (let's go Raptors and Knicks!) </p>
 
+        </section>
+    
         <section class="skill" id="skill">
-            <h2>My Developer Toolkit</h2>
-            <div class="skillIconContainer">
-                <div class="skillIcon">
-                    <i class="devicon-html5-plain"></i>
-                    <p>HTML</p>
-                </div>
-                <div class="skillIcon">
-                    <i class="devicon-css3-plain"></i>
-                    <p>CSS</p>
-                </div>
-                <div class="skillIcon">
-                    <i class="devicon-sass-original"></i>
-                    <p>SASS</p>
-                </div>
-                <div class="skillIcon">
-                    <i class="devicon-javascript-plain"></i>
-                    <p>JAVASCRIPT</p>
-                </div>
-                <div class="skillIcon">
-                    <i class="devicon-react-original"></i>
-                    <p>REACT</p>
-                </div>
-                <div class="skillIcon">
-                    <i class="devicon-github-original"></i>
-                    <p>GITHUB/GIT</p>
-                </div>
-                <div class="skillIcon">
-                    <i class="devicon-firebase-plain"></i>
-                    <p>FIREBASE</p>
+            <div class="skillContainer wrapper">
+                <h2>My Developer Toolkit</h2>
+                <div class="skillIconContainer">
+                    <div class="skillIcon">
+                        <i class="devicon-html5-plain"></i>
+                        <p>HTML</p>
+                    </div>
+                    <div class="skillIcon">
+                        <i class="devicon-css3-plain"></i>
+                        <p>CSS</p>
+                    </div>
+                    <div class="skillIcon">
+                        <i class="devicon-sass-original"></i>
+                        <p>SASS</p>
+                    </div>
+                    <div class="skillIcon">
+                        <i class="devicon-javascript-plain"></i>
+                        <p>JAVASCRIPT</p>
+                    </div>
+                    <div class="skillIcon">
+                        <i class="devicon-react-original"></i>
+                        <p>REACT</p>
+                    </div>
+                    <div class="skillIcon">
+                        <i class="devicon-github-original"></i>
+                        <p>GITHUB/GIT</p>
+                    </div>
+                    <div class="skillIcon">
+                        <i class="devicon-firebase-plain"></i>
+                        <p>FIREBASE</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="projects" id="projects">
+        <section class="projects wrapper" id="projects">
             <h2>Projects</h2>
             <div class="projectLeft">
-                <img src="./assets/javascript_app.png" alt="dog encyclopawdia javascript application">
+                <div class="imgContainer">
+                    <img src="./assets/javascript_app.png" alt="dog encyclopawdia javascript application">
+                </div>
                 <div class="projectInfo">
                     <h3>Dog Enyclo-paw-dia</h3>
                     <h4>HTML,CSS,SCSS,JS</h4>
@@ -93,7 +103,9 @@
             </div>
 
             <div class="projectLeft">
-                <img src="./assets/beachstay_conversion.png" alt="beachstays psd conversion project">
+                <div class="imgContainer">
+                    <img src="./assets/beachstay_conversion.png" alt="beachstays psd conversion project">
+                </div>
                 <div class="projectInfo">
                     <h3>BeachStays</h3>
                     <h4>HTML,CSS,SCSS</h4>
@@ -106,7 +118,9 @@
             </div>
 
             <div class="projectLeft">
-                <img src="./assets/assignment_one.png" alt="paint gallery psd conversion created on CodePen">
+                <div class="imgContainer">
+                    <img src="./assets/assignment_one.png" alt="paint gallery psd conversion created on CodePen">
+                </div>
                 <div class="projectInfo">
                     <h3>Paint Gallery</h3>
                     <h4>HTML, CSS, CodePen</h4>
@@ -120,20 +134,22 @@
         </section>
 
         <section class="contact" id="contact">
-            <h2>Contact</h2>
-            <div class="contactIcon">
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-solid fa-envelope"></i>
+            <div class="contactContainer wrapper">
+                <h2>Contact</h2>
+                <div class="contactIcon">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <p>If you would like to reach out, please feel free to reach out to <strong >harrison.hui.524@gmail.com</strong> or would be happy to connect on LinkedIn! Thanks for stopping by!</p>
+                <button>Let's Connect!</button>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, adipisci.</p>
-            <button>Let's Connect!</button>
         </section>
         
     </main>
-    
-    <footer class="wrapper">
-        <p>Built in 2022 by Harrison Hui.</p>
+
+    <footer>
+        <p>Built by Harrison Hui &copy; 2022</p>
     </footer>
 </body>
 </html>
