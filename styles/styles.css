@@ -334,6 +334,8 @@ footer p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 .about h2 {
   margin-bottom: 0;
@@ -363,7 +365,7 @@ footer p {
           align-items: center;
 }
 .skillContainer h2 {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .skillIconContainer {
@@ -374,7 +376,7 @@ footer p {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
