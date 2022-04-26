@@ -38,6 +38,7 @@ img {
 // header styles
 header {
     background-color: orange;
+    height: 50vh;
     h1 {
         font-size: 2.6rem;
     }
@@ -52,7 +53,7 @@ a {
     display: flex;
     justify-content: space-around;
     // border: 1px solid black;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
     a {
         font-weight: bold;
         color: #FFF1BF;

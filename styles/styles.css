@@ -265,6 +265,7 @@ img {
 
 header {
   background-color: orange;
+  height: 50vh;
 }
 header h1 {
   font-size: 2.6rem;
@@ -281,7 +282,7 @@ a {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-bottom: 40px;
+  margin-bottom: 90px;
 }
 .nav a {
   font-weight: bold;
